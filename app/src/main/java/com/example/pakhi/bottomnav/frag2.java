@@ -2,7 +2,7 @@ package com.example.pakhi.bottomnav;
 
 
 import android.os.Bundle;
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +13,10 @@ import android.view.ViewGroup;
  */
 public class frag2 extends Fragment {
 
+    public static frag2 newInstance() {
+        frag2 fragment = new frag2();
+        return fragment;
+    }
 
     public frag2() {
         // Required empty public constructor

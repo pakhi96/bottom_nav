@@ -3,4 +3,12 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="songs">
+        <item>Starboy</item>
+        <item>Waterfall</item>
+        <item>It Aint Me</item>
+        <item>Closer</item>
+
+    </string-array>
+
 </resources>
